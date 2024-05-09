@@ -1,0 +1,25 @@
+
+P
+ src/main/java/base/BaseTest.java,a\1\a1409c3348e128f6b8de3c422846c43706eff0f8
+P
+ src/test/java/LoginStepDefs.java,d\4\d46b8edb3bf51004b27b5a5368391c0fb47b5a85
+U
+%src/main/java/pages/ProductsPage.java,9\9\999ffc3cbd66e7892c2dd902743f97db823dee62
+P
+ src/main/java/base/BasePage.java,a\3\a3820092b29fcde1a420c3b31f60024ca06bc539
+R
+"src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
+S
+#src/main/java/driver/AppDriver.java,8\e\8e484648088bb1c6f36716d395a4d2a53b2f4d69
+V
+&src/test/java/run/RunCucumberTest.java,1\5\15f16e6fdf51f809aa618889061a218a7e445a3a
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+I
+src/test/login.testng.xml,d\1\d10cea7029c2f7d3412ace065056921421d23f5a
+@
+browserstack.yml,a\0\a0c961fde3118d58ada1c4f276e0bda3a0a1a3a1
+T
+$src/main/java/driver/AppFactory.java,4\c\4c6d9a7c16ff6efbe6ba59a4fa0092aa471353d2
+Y
+)src/test/resources/features/login.feature,2\8\289dfbbe8ba64689786cb27d30084005e5a8324c
