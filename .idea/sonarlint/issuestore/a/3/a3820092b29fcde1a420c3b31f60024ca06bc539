@@ -4,3 +4,5 @@ java:S1104"PMake wait a static final constant or non-public and provide access
 Œ
 java:S1845"vRename field "wait" to prevent any misunderstanding/clash with method "wait" defined in superclass "java.lang.Object".(ÇªŠÄ
 @	java:S106'"+Replace this use of System.out by a logger.(áúÜ
+M
+java:S5960("+Remove this assertion from production code.(Åˆÿ†úÿÿÿÿ8¢òÑãõ1

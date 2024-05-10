@@ -1,0 +1,11 @@
+
+{
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(Óì×Úøÿÿÿÿ8ğÓñãõ1
+w
+java:S1450"URemove the "driver" field and declare it as a local variable in the relevant methods.(×‹åÔüÿÿÿÿ8÷Óñãõ1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(³€éŠ8øÓñãõ1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú’¨.8úÓñãõ1
+G	java:S106$"+Replace this use of System.out by a logger.(³ãÿş8ƒÔñãõ1
+k
+java:S1128"NRemove this unused import 'io.appium.java_client.remote.MobileCapabilityType'.(®ó¡¾8ô¢ôãõ1
