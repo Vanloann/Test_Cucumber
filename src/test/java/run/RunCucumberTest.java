@@ -22,9 +22,9 @@ public class RunCucumberTest extends BaseTest {
     }
     @AfterClass
     public void tearDown() throws Exception {
-        System.out.println("Loan ngu vl");
         if (AppDriver.getCurrentDriver() != null) {
             AppDriver.getCurrentDriver().quit();
         }
+        System.out.println("App is closed.");
     }
 }

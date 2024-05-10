@@ -28,7 +28,7 @@ public class AppFactory {
         capabilities.setCapability("browserstackLocal", "false");
         capabilities.setCapability("buildName", "browserstack-build-1");
         capabilities.setCapability("projectName", "BrowserStack Sample");
-//        capabilities.setCapability("browserstack.idleTimeout", 300);
+        capabilities.setCapability("browserstack.idleTimeout", "300");
         // Create AppiumDriver instance and connect to the Appium server.
         // It will launch the app in Android Emulator using the configurations specified in Desired Capabilities.
         driver = new AppiumDriver<MobileElement>(new URL("http://hub-cloud.browserstack.com/wd/hub"), capabilities);
