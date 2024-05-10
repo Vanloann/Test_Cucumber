@@ -23,6 +23,7 @@ public class BaseTest {
 
     @AfterClass
     public void tearDown() throws Exception {
+        System.out.println("Loan ngu vl 123");
         if (AppDriver.getCurrentDriver() != null) {
             AppDriver.getCurrentDriver().quit();
         }
