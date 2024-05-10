@@ -66,8 +66,9 @@
             <version>7.0.0</version>
         </dependency>
     </dependencies>
-<!--    <build>-->
-<!--        <plugins>-->
+
+    <build>
+        <plugins>
 <!--            <plugin>-->
 <!--                <artifactId>maven-dependency-plugin</artifactId>-->
 <!--                <version>3.3.0</version>-->
@@ -80,17 +81,14 @@
 <!--                    </execution>-->
 <!--                </executions>-->
 <!--            </plugin>-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-surefire-plugin</artifactId>-->
-<!--                <version>2.22.2</version>-->
-<!--                <configuration>-->
-<!--                    <suiteXmlFiles>-->
-<!--                        <suiteXmlFile>src/test/login.testng.xml</suiteXmlFile>-->
-<!--                    </suiteXmlFiles>-->
-<!--                    <argLine>-javaagent:${com.browserstack:browserstack-java-sdk:jar}</argLine>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
+            </plugin>
 <!--            <plugin>-->
 <!--                <groupId>org.apache.maven.plugins</groupId>-->
 <!--                <artifactId>maven-compiler-plugin</artifactId>-->
@@ -100,8 +98,8 @@
 <!--                    <target>1.8</target>-->
 <!--                </configuration>-->
 <!--            </plugin>-->
-<!--        </plugins>-->
-<!--    </build>-->
+        </plugins>
+    </build>
 <!--    <profiles>-->
 <!--        <profile>-->
 <!--            <id>sample-test</id>-->

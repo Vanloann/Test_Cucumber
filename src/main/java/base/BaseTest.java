@@ -21,11 +21,12 @@ public class BaseTest {
     }
 
 
-    @AfterClass
-    public void tearDown() throws Exception {
-        if (AppDriver.getCurrentDriver() != null) {
-            AppDriver.getCurrentDriver().quit();
-        }
-        System.out.println("...");
-    }
+//    @AfterClass
+//    public void tearDown() throws Exception {
+//        if (AppDriver.getCurrentDriver() != null) {
+//
+//            AppDriver.getCurrentDriver().quit();
+//        }
+//        System.out.println("...");
+//    }
 }

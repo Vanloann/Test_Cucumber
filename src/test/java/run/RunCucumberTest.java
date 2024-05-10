@@ -21,7 +21,7 @@ public class RunCucumberTest extends BaseTest {
         getDriver();
     }
     @AfterClass
-    public void tearDown() throws Exception {
+    public static void tearDown() throws Exception {
         if (AppDriver.getCurrentDriver() != null) {
             AppDriver.getCurrentDriver().quit();
         }
