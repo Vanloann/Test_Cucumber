@@ -1,8 +1,6 @@
 
 P
  src/main/java/base/BaseTest.java,a\1\a1409c3348e128f6b8de3c422846c43706eff0f8
-P
- src/test/java/LoginStepDefs.java,d\4\d46b8edb3bf51004b27b5a5368391c0fb47b5a85
 U
 %src/main/java/pages/ProductsPage.java,9\9\999ffc3cbd66e7892c2dd902743f97db823dee62
 P
@@ -23,3 +21,21 @@ T
 $src/main/java/driver/AppFactory.java,4\c\4c6d9a7c16ff6efbe6ba59a4fa0092aa471353d2
 Y
 )src/test/resources/features/login.feature,2\8\289dfbbe8ba64689786cb27d30084005e5a8324c
+^
+.src/main/java/utilities/ScreenshotFactory.java,4\c\4c2add4b6a9a8cd2f02f594afdc4190aa1b3d316
+Z
+*src/main/java/utilities/ScrollFactory.java,6\0\6050b562471cbe70953bdd07cdfa8d996f5265e3
+U
+%src/main/java/enums/WaitStrategy.java,4\8\48ed3a305cef935f91767e71319aef61dff6689f
+`
+0src/test/java/stepdefinitions/LoginStepDefs.java,e\8\e8678435ca618eb6b5c72e3631dd8bea21977b5a
+X
+(src/main/java/utilities/WaitFactory.java,f\7\f75ad619132f14ac77fc1b1a59fa1968b848f40d
+Q
+!src/main/java/pages/CartPage.java,4\9\49d21e14bc0349d2256e737eacde89e121bf0432
+\
+,src/main/java/utilities/ImageComparison.java,2\9\29b29ac2111b4c65a9d5539ea73773ee8d05bb71
+c
+3src/test/java/stepdefinitions/CheckoutStepDefs.java,a\f\afad8088fdc5e690bee94eab523540266615ed98
+U
+%src/main/java/pages/CheckoutPage.java,9\7\971a13c7df9fcbbfaf7afbe1c9cb3eab6077c680

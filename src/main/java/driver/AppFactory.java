@@ -15,10 +15,12 @@ public class AppFactory {
         DesiredCapabilities capabilities = new DesiredCapabilities();
 //        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 //        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "AndroidPixel3");
-//        capabilities.setCapability(MobileCapabilityType.APP, "D:\\AUT_LoanTTV\\MobileAUT\\cucumber_test\\src\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1 (1).apk");
-//        // You can also set appPackage and appActivity for Android if you want to test on a pre-installed application
+//        capabilities.setCapability(MobileCapabilityType.APP, "D:\\AUT_LoanTTV\\Test_Cucumber\\cucumber_ci_cd_test" +
+//                "\\src\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1 (1).apk");
+        // You can also set appPackage and appActivity for Android if you want to test on a pre-installed application
 //        capabilities.setCapability("appPackage", "com.swaglabsmobileapp");
 //        capabilities.setCapability("appActivity", "com.swaglabsmobileapp.SplashActivity");
+
         capabilities.setCapability("platformName", "android");
         capabilities.setCapability("browserstack.user", "vanloan_1qytur");
         capabilities.setCapability("browserstack.key", "yuD4TEGXhdHMwEWREfNb");
@@ -28,10 +30,11 @@ public class AppFactory {
         capabilities.setCapability("browserstackLocal", "false");
         capabilities.setCapability("buildName", "browserstack-build-1");
         capabilities.setCapability("projectName", "BrowserStack Sample");
-//        capabilities.setCapability("browserstack.idleTimeout", "300");
-        // Create AppiumDriver instance and connect to the Appium server.
-        // It will launch the app in Android Emulator using the configurations specified in Desired Capabilities.
+        capabilities.setCapability("browserstack.idleTimeout", "300");
+//         Create AppiumDriver instance and connect to the Appium server.
+//         It will launch the app in Android Emulator using the configurations specified in Desired Capabilities.
         driver = new AppiumDriver<MobileElement>(new URL("http://hub-cloud.browserstack.com/wd/hub"), capabilities);
+//        driver = new AppiumDriver<>(new URL("http://localhost:4723/wd/hub"), capabilities);
         AppDriver.setDriver(driver);
         System.out.println("AndroidDriver is set");
     }

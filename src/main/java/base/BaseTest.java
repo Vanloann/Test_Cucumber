@@ -19,14 +19,4 @@ public class BaseTest {
         }
         System.out.println("Launch app successfully!");
     }
-
-
-//    @AfterClass
-//    public void tearDown() throws Exception {
-//        if (AppDriver.getCurrentDriver() != null) {
-//
-//            AppDriver.getCurrentDriver().quit();
-//        }
-//        System.out.println("...");
-//    }
 }

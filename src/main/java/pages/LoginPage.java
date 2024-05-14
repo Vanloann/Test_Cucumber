@@ -15,12 +15,6 @@ public class LoginPage extends BasePage {
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Username and password do not match any user " +
             "in this service.']")
     private MobileElement ErrorMsg;
-
-    public void login(String username, String password) {
-        type(UserName, username);
-        type(Password, password);
-        click(LoginBtn);
-    }
     public void enterUserName(String username) {
         type(UserName, username);
     }
@@ -30,12 +24,7 @@ public class LoginPage extends BasePage {
     public void clickLoginBtn() {
         click(LoginBtn);
     }
-    public void verifyLoginFail() {
-        verify(ErrorMsg, "Username and password do not match any user in this service.");
-    }
     public void verifyError(String message) {
         verify(ErrorMsg, message);
     }
-
-
 }

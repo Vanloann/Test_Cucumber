@@ -1,2 +1,3 @@
-D:\AUT_LoanTTV\Test_Cucumber\cucumber_ci_cd_test\src\test\java\LoginStepDefs.java
+D:\AUT_LoanTTV\Test_Cucumber\cucumber_ci_cd_test\src\test\java\stepdefinitions\CheckoutStepDefs.java
+D:\AUT_LoanTTV\Test_Cucumber\cucumber_ci_cd_test\src\test\java\stepdefinitions\LoginStepDefs.java
 D:\AUT_LoanTTV\Test_Cucumber\cucumber_ci_cd_test\src\test\java\run\RunCucumberTest.java

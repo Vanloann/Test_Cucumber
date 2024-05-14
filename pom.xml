@@ -65,57 +65,63 @@
             <artifactId>cucumber-gherkin</artifactId>
             <version>7.0.0</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>7.11.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
         <plugins>
-<!--            <plugin>-->
-<!--                <artifactId>maven-dependency-plugin</artifactId>-->
-<!--                <version>3.3.0</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>getClasspathFilenames</id>-->
-<!--                        <goals>-->
-<!--                            <goal>properties</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
+                    <!--                    <suiteXmlFiles>-->
+                    <!--                        <suiteXmlFile>src/test/login.testng.xml</suiteXmlFile>-->
+                    <!--                    </suiteXmlFiles>-->
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
 <!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-compiler-plugin</artifactId>-->
-<!--                <version>3.8.1</version>-->
-<!--                <configuration>-->
-<!--                    <source>1.8</source>-->
-<!--                    <target>1.8</target>-->
-<!--                </configuration>-->
+<!--                &lt;!&ndash;https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting&ndash;&gt;-->
+<!--                <groupId>net.masterthought</groupId>-->
+<!--                <artifactId>maven-cucumber-reporting</artifactId>-->
+<!--                <version>5.7.5</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>execution</id>-->
+<!--                        <phase>test</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>generate</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <projectName>cucumber_ci_cd_test</projectName>-->
+<!--                            <skip>false</skip>-->
+<!--                            <outputDirectory>reports/CucumberReports/cucumber-reports</outputDirectory>-->
+<!--                            <inputDirectory>target/cucumber-reports</inputDirectory>-->
+<!--                            <jsonFiles>-->
+<!--                                <param>**/*.json</param>-->
+<!--                            </jsonFiles>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
 <!--            </plugin>-->
         </plugins>
     </build>
-<!--    <profiles>-->
-<!--        <profile>-->
-<!--            <id>sample-test</id>-->
-<!--            <build>-->
-<!--                <plugins>-->
-<!--                    <plugin>-->
-<!--                        <groupId>org.apache.maven.plugins</groupId>-->
-<!--                        <artifactId>maven-surefire-plugin</artifactId>-->
-<!--                        <configuration>-->
-<!--                            <suiteXmlFiles>-->
-<!--                                <suiteXmlFile>src/test/login.testng.xml</suiteXmlFile>-->
-<!--                            </suiteXmlFiles>-->
-<!--                        </configuration>-->
-<!--                    </plugin>-->
-<!--                </plugins>-->
-<!--            </build>-->
-<!--        </profile>-->
-<!--    </profiles>-->
+
 </project>
