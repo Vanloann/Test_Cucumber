@@ -83,9 +83,9 @@
                 <version>2.19.1</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>src/test/login.testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+<!--                    <suiteXmlFiles>-->
+<!--                        <suiteXmlFile>src/test/login.testng.xml</suiteXmlFile>-->
+<!--                    </suiteXmlFiles>-->
                 </configuration>
             </plugin>
             <plugin>
