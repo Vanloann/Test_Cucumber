@@ -18,8 +18,7 @@ import java.net.MalformedURLException;
         glue = {"stepdefinitions"},
         plugin = {"pretty", "html:target/cucumber-reports/RunCucumberTest.html",
                 "json:target/cucumber-reports/RunCucumberTest.json"},
-        tags = "",
-        monochrome = true)
+        tags = "")
 public class RunCucumberTest extends BaseTest {
     @BeforeClass
     public static void beforeClass() throws MalformedURLException {

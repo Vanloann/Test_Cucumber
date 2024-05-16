@@ -19,11 +19,11 @@ import java.util.Arrays;
 
 public class ImageComparison {
     private static final String VALIDATION_PATH = "D:\\AUT_LoanTTV\\Test_Cucumber\\cucumber_ci_cd_test\\validation-img" +
-            "\\resultimg.png";
+            "\\resultImg.png";
     private static final String EXPECTED_IMAGE_PATH = "D:\\AUT_LoanTTV\\Test_Cucumber\\cucumber_ci_cd_test\\" +
-            "validation-img\\expectedimg2.png";
+            "validation-img\\expectedImg2.png";
     private static final String ERROR_EXPECTED_IMAGE = "D:\\AUT_LoanTTV\\Test_Cucumber\\cucumber_ci_cd_test\\" +
-            "validation-img\\expectedimg.png";
+            "validation-img\\expectedImg.png";
 
 
 //    public static Rectangle getDifferenceBounds(BufferedImage image1, BufferedImage image2) {
