@@ -17,13 +17,15 @@ import java.net.MalformedURLException;
         features = {"src/test/resources/features"},
         glue = {"stepdefinitions"},
         plugin = {"pretty", "html:target/cucumber-reports/RunCucumberTest.html",
-                "json:target/cucumber-reports/RunCucumberTest.json"}
-)
+                "json:target/cucumber-reports/RunCucumberTest.json"},
+        tags = "",
+        monochrome = true)
 public class RunCucumberTest extends BaseTest {
     @BeforeClass
     public static void beforeClass() throws MalformedURLException {
         getDriver();
     }
+
     @AfterClass
     public static void tearDown() throws Exception {
         if (AppDriver.getCurrentDriver() != null) {

@@ -39,3 +39,7 @@ c
 3src/test/java/stepdefinitions/CheckoutStepDefs.java,a\f\afad8088fdc5e690bee94eab523540266615ed98
 U
 %src/main/java/pages/CheckoutPage.java,9\7\971a13c7df9fcbbfaf7afbe1c9cb3eab6077c680
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

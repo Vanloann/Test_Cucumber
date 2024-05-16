@@ -4,6 +4,7 @@ import base.BasePage;
 import enums.WaitStrategy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import org.junit.Assert;
 import utilities.ScreenshotFactory;
 import utilities.ScrollFactory;
 import utilities.WaitFactory;
@@ -52,6 +53,8 @@ public class CheckoutPage extends BasePage {
         verify(OrderCompleteMsg, message);
     }
     public void takeScreenshot() {
-        ScreenshotFactory.captureScreenshots("OrderComplete", 0, 380, 1080, 1380);
+        boolean check = ScreenshotFactory.captureScreenshotsAndCompare("OrderComplete", 0, 420, 1080, 1490);
+        System.out.println(check);
+        Assert.assertTrue(check);
     }
 }

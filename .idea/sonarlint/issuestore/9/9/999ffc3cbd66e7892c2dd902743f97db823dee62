@@ -1,6 +1,8 @@
 
-e	java:S116	"PRename this field "Title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¥šÑ
-l	java:S116"RRename this field "SideBar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯üÓåøÿÿÿÿ
-x	java:S116"WRename this field "AddToCartBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÆªúÿÿÿÿ8Ñö˜¯ö1
-y	java:S116"XRename this field "AddToCartBtn1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öƒôìüÿÿÿÿ8Ğ«îˆ÷1
-k	java:S116"ORename this field "Cart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(† ¯‹8Ğ«îˆ÷1
+l	java:S116"PRename this field "Title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¥šÑ8ı®¡©÷1
+s	java:S116"RRename this field "SideBar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯üÓåøÿÿÿÿ8ş®¡©÷1
+u	java:S116"TRename this field "AddAnItem" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ—’şÿÿÿÿ8ş®¡©÷1
+t	java:S116"YRename this field "AddAnotherItem" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÏß<8ÿ®¡©÷1
+k	java:S116"ORename this field "Cart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(† ¯‹8ÿ®¡©÷1
+U
+java:S1128"8Remove this unused import 'utilities.ScreenshotFactory'.(Û’äÈ8÷âÀ©÷1
