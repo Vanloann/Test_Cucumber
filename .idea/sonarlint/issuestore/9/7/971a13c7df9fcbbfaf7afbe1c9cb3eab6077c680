@@ -1,0 +1,13 @@
+
+u	java:S116"TRename this field "FirstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éôßèúÿÿÿÿ8Ú§ý³÷1
+o	java:S116"SRename this field "LastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãåòý8Ú§ý³÷1
+n	java:S116"RRename this field "ZipCode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÑ©™8Ú§ý³÷1
+w	java:S116"VRename this field "ContinueBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¥ÓËüÿÿÿÿ8Ú§ý³÷1
+p	java:S116"TRename this field "FinishBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ö£ê8Ú§ý³÷1
+|	java:S116"[Rename this field "OrderCompleteMsg" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦“œÒüÿÿÿÿ8Ú§ý³÷1
+t	java:S116"XRename this field "CheckoutTitle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¥µÍ8Ú§ý³÷1
+k	java:S116"PRename this field "Image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷©á@8Ú§ý³÷1
+L	java:S1069"+Replace this use of System.out by a logger.(‰œ¼ãþÿÿÿÿ8ê£ƒ´÷1
+L	java:S106:"+Replace this use of System.out by a logger.(œìí„üÿÿÿÿ8²Ø‹º÷1
+M
+java:S5960;"+Remove this assertion from production code.(Ž¬Õîýÿÿÿÿ8ß§ý³÷1
