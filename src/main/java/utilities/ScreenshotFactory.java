@@ -29,7 +29,7 @@ public class ScreenshotFactory {
             BufferedImage coppedImg = fullImg.getSubimage(x, y, width, height);
             ImageIO.write(coppedImg, "png", newDest);
             System.out.println(newDest.getAbsoluteFile());
-            return ImageComparison.compareImages(new File("D:\\AUT_LoanTTV\\Test_Cucumber\\cucumber_ci_cd_test\\screenshots\\OrderComplete.png"));
+            return ImageComparison.compareImages(new File("screenshots/OrderComplete.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
