@@ -57,6 +57,6 @@ public class CheckoutStepDefs {
     @Then("successful {string} is displayed")
     public void verifyOrder(String message) {
         checkoutPage.verifyOrderComplete(message);
-//        checkoutPage.takeScreenshot();
+        checkoutPage.takeScreenshot();
     }
 }
