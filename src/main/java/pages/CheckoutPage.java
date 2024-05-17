@@ -53,7 +53,7 @@ public class CheckoutPage extends BasePage {
         verify(OrderCompleteMsg, message);
     }
     public void takeScreenshot() {
-        boolean check = ScreenshotFactory.captureScreenshotsAndCompare("OrderComplete", 0, 420, 1080, 1490);
+        boolean check = ScreenshotFactory.captureScreenshots("OrderComplete", 0, 420, 1080, 1490);
         System.out.println(check);
         Assert.assertTrue(check);
     }

@@ -12,7 +12,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class ScreenshotFactory {
-    public static boolean captureScreenshotsAndCompare(String testName, int x, int y, int width, int height) {
+    public static boolean captureScreenshots(String testName, int x, int y, int width, int height) {
         TakesScreenshot scrShot = ((TakesScreenshot) AppDriver.getCurrentDriver());
         // Gọi hàm để chụp ảnh màn hình - getScreenshotAs
         File sourceFile = scrShot.getScreenshotAs(OutputType.FILE);
@@ -28,7 +28,8 @@ public class ScreenshotFactory {
             BufferedImage fullImg = ImageIO.read(sourceFile);
             BufferedImage coppedImg = fullImg.getSubimage(x, y, width, height);
             ImageIO.write(coppedImg, "png", newDest);
-            return ImageComparison.compareImages(newDest);
+            System.out.println(newDest.getAbsoluteFile());
+            return ImageComparison.compareImages(newDest.getAbsoluteFile());
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

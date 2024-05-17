@@ -8,6 +8,5 @@ p	java:S116"TRename this field "FinishBtn" to match the regular expression '^
 t	java:S116"XRename this field "CheckoutTitle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¥µÍ8Ú§ý³÷1
 k	java:S116"PRename this field "Image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷©á@8Ú§ý³÷1
 L	java:S1069"+Replace this use of System.out by a logger.(‰œ¼ãþÿÿÿÿ8ê£ƒ´÷1
-L	java:S106:"+Replace this use of System.out by a logger.(œìí„üÿÿÿÿ8²Ø‹º÷1
 M
-java:S5960;"+Remove this assertion from production code.(Ž¬Õîýÿÿÿÿ8ß§ý³÷1
+java:S5960:"+Remove this assertion from production code.(Ž¬Õîýÿÿÿÿ8ß§ý³÷1
